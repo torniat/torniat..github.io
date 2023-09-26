@@ -1,28 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-body {
-  background-color: lightblue;
+/* Stijl het navigatiemenu */
+nav {
+ background-color: #333; /* Achtergrondkleur */
+ padding: 10px; /* Ruimte rondom het menu */
 }
-
-h1 {
-  color: white;
-  text-align: center;
+/* Stijl de lijst in het menu */
+ul {
+ list-style-type: none; /* Verwijder de standaard lijststijl */
+ padding: 0;
 }
-
-p {
-  font-family: verdana;
-  font-size: 20px;
+/* Stijl de menu-items (lijstitems) */
+li {
+ display: inline; /* Plaats de menu-items naast elkaar */
+ margin-right: 20px; /* Ruimte tussen de menu-items */
 }
-</style>
-</head>
-<body>
-
-<h1>My First CSS Example</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
-
-
+/* Stijl de koppelingen (hyperlinks) in het menu */
+a {
+ text-decoration: none; /* Verwijder de onderstreping van koppelingen */
+ color: #fff; /* Tekstkleur van koppelingen */
+}
+/* Stijl de koppelingen wanneer de muis erover beweegt */
+a:hover {
+ text-decoration: underline; /* Voeg een onderstreping toe bij hover */
+}
+4
